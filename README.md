@@ -1,3 +1,4 @@
 # BigDataWorkshop
-Azure Workshop for Big Data, ML, and BI 
-This repository contains material for an Azure Workshop. You require an Azure subscription as a pre-requisite. 
+Azure Workshop for Big Data, ML, and BI. 
+This repository contains instructional material for an Azure Workshop. 
+Pre-requisite: Azure subscription 
