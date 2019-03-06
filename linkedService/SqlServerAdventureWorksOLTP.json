@@ -1,0 +1,15 @@
+{
+	"name": "SqlServerAdventureWorksOLTP",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=SHASH-SURFBOOK;initial catalog=AdventureWorks2017;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1YmRmMDFjMi1kZWQ3LTQ1ZDUtYjg5MC1mYjdlYmQ1Mjc1ZWMiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

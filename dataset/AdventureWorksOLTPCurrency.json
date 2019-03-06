@@ -1,0 +1,28 @@
+{
+	"name": "AdventureWorksOLTPCurrency",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerAdventureWorksOLTP",
+			"type": "LinkedServiceReference"
+		},
+		"type": "SqlServerTable",
+		"structure": [
+			{
+				"name": "CurrencyCode",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "ModifiedDate",
+				"type": "DateTime"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[Sales].[Currency]"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
