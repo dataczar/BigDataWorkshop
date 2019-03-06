@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFDemo2019"
+		},
+		"integrationRuntime_integrationRuntime1": {
+			"value": "integrationRuntime1"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"SqlServer1_connectionString": {
+			"value": ""
+		},
+		"SqlServerAdventureWorksOLTP_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorageFileGen2_properties_typeProperties_fileName": {
+			"value": ""
+		},
+		"AzureDataLakeStorageFileGen2_properties_typeProperties_folderPath": {
+			"value": "sql/DemoDB"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakestoregen2.dfs.core.windows.net"
+		}
+	}
+}
