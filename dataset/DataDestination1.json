@@ -1,0 +1,60 @@
+{
+	"name": "DataDestination1",
+	"properties": {
+		"description": "Connect to your data destination store.",
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDW1",
+			"type": "LinkedServiceReference"
+		},
+		"type": "AzureSqlDWTable",
+		"structure": [
+			{
+				"name": "Customer Key",
+				"type": "Int32"
+			},
+			{
+				"name": "WWI Customer ID",
+				"type": "Int32"
+			},
+			{
+				"name": "Customer",
+				"type": "String"
+			},
+			{
+				"name": "Bill To Customer",
+				"type": "String"
+			},
+			{
+				"name": "Category",
+				"type": "String"
+			},
+			{
+				"name": "Buying Group",
+				"type": "String"
+			},
+			{
+				"name": "Primary Contact",
+				"type": "String"
+			},
+			{
+				"name": "Postal Code",
+				"type": "String"
+			},
+			{
+				"name": "Valid From",
+				"type": "DateTime"
+			},
+			{
+				"name": "Valid To",
+				"type": "DateTime"
+			},
+			{
+				"name": "Lineage Key",
+				"type": "Int32"
+			}
+		],
+		"typeProperties": {
+			"tableName": "[ext].[dimension_Customer]"
+		}
+	}
+}
